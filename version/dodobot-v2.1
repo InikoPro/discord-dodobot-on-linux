@@ -1,0 +1,43 @@
+#!/bin/bash
+
+# Name: Dodo bot for Linux
+# Version: v2
+# OS: Ubunte, Debian, Based-debian
+
+clear
+echo "Welcome to Dodo Bot v2.1 | Linux"
+PS3='Please enter your number: '
+options=("Install Dodo Bot" "Config Dodo Bot" "Start" "Exit")
+select opt in "${options[@]}"
+do
+    case $opt in
+        "Install Dodo Bot")
+            clear
+            apt update && apt full-upgrade -y
+            apt install git curl wget
+            git clone https://github.com/DodoGames7/Dodo-Bot
+            curl -sL https://deb.nodesource.com/setup_18.x | bash -
+            apt update && apt full-upgrade -y
+            apt install nodejs -y
+            clear
+            cd ./Dodo-Bot && npm i aoi.js@5.5.5 && npm i @akarui/aoi.panel && cd
+            node -v
+            npm -v
+            sleep 3
+            clear
+            sleep 3
+            echo "Successfully Installed"
+            clear && cd && bash dodobot-v2.1
+            ;;
+        "Config Dodo Bot")
+            clear && cd  && cd ./Dodo-Bot && nano index.js && cd .. && clear && bash dodobot-v2.1
+            ;;
+        "Start")
+            clear && cd ./Dodo-Bot && clear && echo To stop, press Ctrl C && node . && clear && bash dodobot-v2.1
+            ;;
+        "Exit")
+            exit && clear
+            ;;
+        *) echo "invalid option $REPLY";;
+    esac
+done

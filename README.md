@@ -11,6 +11,7 @@ git clone https://github.com/InikoMatthewPro/dodobot-on-linux/blob/main/version/
 </details>
 <details>
 <summary><b>Install Linux (Without sudo)</summary>
+
 ```
 git clone https://github.com/InikoMatthewPro/dodobot-on-linux/blob/main/version/dodobot-v2 && bash dodobot-v2
 ```

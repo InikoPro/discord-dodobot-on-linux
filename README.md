@@ -1,2 +1,2 @@
-# dodobot-on-linux
+# Dodo Bot on Linux
 Dodo Bot Hosting on Linux

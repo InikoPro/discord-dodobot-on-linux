@@ -35,4 +35,4 @@ git clone https://github.com/InikoMatthewPro/dodobot-on-linux/blob/main/version/
 - Supported ARM & Intel
 
 ### Reviews
-Coming soon.
+![Review Image](image/Screenshot_20221219-170434_Termux.jpg)

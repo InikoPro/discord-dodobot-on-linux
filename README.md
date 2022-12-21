@@ -6,21 +6,21 @@ Discord Dodo Bot Hosting on Linux
 <summary><b>Install Linux (With sudo)</summary>
 
 ```
-wget https://raw.githubusercontent.com/InikoMatthewPro/dodobot-on-linux/main/version/dodobot-v2.1 && sudo bash dodobot-v2
+wget https://raw.githubusercontent.com/InikoMatthewPro/discord-dodobot-on-linux/main/version/dodobot-v2.1 && sudo bash dodobot-v2
 ```
 </details>
 <details>
 <summary><b>Install Linux (Without sudo)</summary>
 
 ```
-wget https://raw.githubusercontent.com/InikoMatthewPro/dodobot-on-linux/main/version/dodobot-v2.1 && bash dodobot-v2
+wget https://raw.githubusercontent.com/InikoMatthewPro/discord-dodobot-on-linux/main/version/dodobot-v2.1 && bash dodobot-v2
 ```
 </details>
 <details>
 <summary><b>Install Android (Termux + Without sudo)</summary>
 
 ```
-wget https://raw.githubusercontent.com/InikoMatthewPro/dodobot-on-linux/main/version/dodobot-v2.1 && bash dodobot-v2
+wget https://raw.githubusercontent.com/InikoMatthewPro/discord-dodobot-on-linux/main/version/dodobot-v2.1 && bash dodobot-v2
 ```
 </details>
 

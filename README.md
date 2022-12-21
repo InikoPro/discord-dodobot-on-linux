@@ -1,5 +1,5 @@
 # Discord Dodo Bot on Linux
-Discord Dodo Bot Hosting on Linux
+Discord Dodo Bot Hosting on Linux (Unofficial)
 
 ## Install
 <details>

@@ -15,7 +15,7 @@ do
             clear
             apt update && apt full-upgrade -y
             apt install git curl wget
-            git clone https://github.com/DodoGames7/Dodo-Bot
+            git clone https://github.com/DodoGames7/Dodo-Bot/tree/v1
             curl -sL https://deb.nodesource.com/setup_18.x | bash -
             apt update && apt full-upgrade -y
             apt install nodejs -y

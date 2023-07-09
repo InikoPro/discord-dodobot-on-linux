@@ -28,7 +28,7 @@ bash discord-dodobot-v2.2
 </details>
   
 <details>
-<summary><b>Eun Android (Termux + Without sudo)</summary>
+<summary><b>Run Android (Termux + Without sudo)</summary>
 
 ```
 bash discord-dodobot-v2.2

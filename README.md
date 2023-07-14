@@ -6,7 +6,7 @@ Discord Dodo Bot Hosting on Linux
 <summary><b>Install Linux & Android</summary>
   
 ```
-wget https://raw.githubusercontent.com/InikoMatthewPro/discord-dodobot-on-linux/main/version/discord-dodobot-v2.2
+wget https://raw.githubusercontent.com/InikoMatthewPro/discord-dodobot-on-linux/main/version/discord-dodobot-v2.3
 ```
 </details>
   
@@ -15,7 +15,7 @@ wget https://raw.githubusercontent.com/InikoMatthewPro/discord-dodobot-on-linux/
 <summary><b>Run Linux (With sudo)</summary>
   
 ```
-sudo bash discord-dodobot-v2.2
+sudo bash discord-dodobot-v2.3
 ```
 </details>
   
@@ -23,7 +23,7 @@ sudo bash discord-dodobot-v2.2
 <summary><b>Run Linux (Without sudo)</summary>
   
 ```
-bash discord-dodobot-v2.2
+bash discord-dodobot-v2.3
 ```
 </details>
   
@@ -31,19 +31,15 @@ bash discord-dodobot-v2.2
 <summary><b>Run Android (Termux + Without sudo)</summary>
 
 ```
-bash discord-dodobot-v2.2
+bash discord-dodobot-v2.3
 ```
 </details>
 
 ### New Features
 - Easy to use
-- 3x faster than cloud
+- 3x faster
 - Supported Termux on Android
 - Supported Ubuntu, Debian & Based-Debian
-- Less power watts than cloud
-- Its free
-- Less cost than cloud
-- Supported ARM & Intel
 
 ### Reviews
 ![Review Image](image/Screenshot_20221222-104042_Termux.jpg)

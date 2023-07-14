@@ -15,25 +15,25 @@ do
             clear
             apt update && apt full-upgrade -y
             apt install git curl wget
-            git clone https://github.com/DodoGames7/Dodo-Bot/tree/v1
+            git clone https://github.com/DodoGames7/Dodo-Bot/tree/v2
             curl -sL https://deb.nodesource.com/setup_18.x | bash -
             apt update && apt full-upgrade -y
             apt install nodejs -y
             clear
-            cd ./Dodo-Bot && npm i aoi.js@5.5.5 && npm i @akarui/aoi.panel && cd
+            cd ./Dodo-Bot && npm i aoi.js@6.3.0 && npm i @akarui/aoi.panel && cd
             node -v
             npm -v
             sleep 3
             clear
             sleep 3
             echo "Successfully Installed"
-            clear && cd && bash dodobot-v2.1
+            clear && cd && bash discord-dodobot-v2.2
             ;;
         "Config Dodo Bot")
-            clear && cd  && cd ./Dodo-Bot && nano index.js && cd .. && clear && bash dodobot-v2.1
+            clear && cd  && cd ./Dodo-Bot && nano index.js && cd .. && clear && bash discord-dodobot-v2.2
             ;;
         "Start")
-            clear && cd ./Dodo-Bot && clear && echo To stop, press Ctrl C && node . && clear && bash dodobot-v2.1
+            clear && cd ./Dodo-Bot && clear && echo To stop, press Ctrl C && node . && clear && bash discord-dodobot-v2.2
             ;;
         "Exit")
             exit && clear
